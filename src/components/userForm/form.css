@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(cover.png);
+  background-size: cover;
+}
+.wrapper {
+  width: 330px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  color: black;
+}
+.wrapper .input-Box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.input-Box input {
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 40px;
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+}
+.input-Box input::placeholder {
+  color: #fff;
+}
+.wrapper .submit-Btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.submit-Btn a:hover {
+  text-decoration: underline;
+}
+
+.wrapper button {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  transition: 0.2s;
+}
+button {
+  width: 15vw;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.login-Page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+button:hover {
+  background-color: #f3843e;
+}
+.wrapper .register-Link {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.register-Link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-Link p a:hover {
+  text-decoration: underline;
+}
+span {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+.welcome {
+  text-align: center;
+  color: black;
+  width: 60vw;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
